@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$(".opciones").hover(function(){
+		$(this).css("border-style","inset");
+		$(this).css("color","yellow");
+	},function(){
+		$(this).css("border-style","none");
+		$(this).css("color","white");
+	});
+});

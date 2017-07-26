@@ -1,0 +1,17 @@
+header{
+	background: #2c3e50;
+	color: #fff;
+	height: auto;
+}
+div.logo{
+	background-image: url("../img/logo.jpg");
+
+    width: 138px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 3%;
+}
+div.opciones{
+	font-size:large;
+	margin: 10px 27px;
+}
