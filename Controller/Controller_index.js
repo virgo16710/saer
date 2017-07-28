@@ -1,4 +1,33 @@
-var app= angular.module("MyIndex",[]);
-app.controller("index",function($scope){
-	
-});
+angular.module('DirectivaIndex',['ngRoute'])
+	.controller('controlador', function($scope){
+		$scope.texto={
+			titulo:'directivas ',
+			subtitulo:'AngularJS',
+		};
+	})
+	.directive('encabezado',function(){
+		return{
+			templateUrl:'views/encabezado.html'
+		};
+	})
+	.config(function($routeProvider){
+		$routeProvider
+			.when('/',{
+				templateUrl:'views/home.html'
+			})
+			.when("/servicio",{
+				templateUrl:"views/servicio.html"
+			})
+			.when("/asistencia",{
+				templateUrl:"views/asistencia.html"
+			})
+			.when("/emergencia",{
+				templateUrl:"views/emergencia.html"
+			})
+			.when("/rescate",{
+				templateUrl:"views/rescate.html"
+			})
+			.otherwise({
+				redirectTo:'/'
+			});
+	})
