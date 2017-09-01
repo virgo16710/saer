@@ -45,6 +45,14 @@ div.controlador{
         background-size: 100% 100%;
      
 }
+.InRescate{
+        background-image: url('../img/Rescate.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 100% 100%;
+     
+}
 .contenedor-angular {
       
        height:100%;
@@ -57,7 +65,7 @@ div.controlador{
 .Contenedor-Titulo > p{
         margin:11%;
 }
-.Contenedor-Imagen{
+.Contenedor-Imagen-Form_a{
      background-image: url('../img/camion.png'); 
      -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -66,6 +74,7 @@ div.controlador{
         width:80%;
         height:100%;  
 }
+
 .Hort-Medio{
         width: 50%;
 }
@@ -75,12 +84,21 @@ div.controlador{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 100% 100%;
+        background-size: 2400px 1600px;
         width:100%;
         height:100%;
         margin-top: 1%;
 }
 .InServicio > .Ver-Cuerpo > .Contenido1{
+        margin-top: 2%;
+        padding-left: 10%;
+        width: 45%;
+}
+.InRescate > .Ver-Cuerpo > .Contenido2{
+        margin-top: 2%;
+        width: 50%;
+}
+.InRescate > .Ver-Cuerpo > .Contenido1{
         margin-top: 2%;
         padding-left: 10%;
         width: 45%;
@@ -92,14 +110,15 @@ div.controlador{
 div.InHome > .header >.logo{
         width:20%;
         background-color: rgba(249, 246, 245, 0.39);
-            margin-left: 10%;
+        margin-left: 10%;
 }
 div.InHome > .header >.logo >.logo-cover{
         background-image: url('../img/LOGO1.png');
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 100% 100%;
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
         width:100%;
         height:100%;
 }
@@ -114,103 +133,3 @@ div.InHome > .header >.logo >.logo-cover{
 .relativo{
       position:relative;
  }
- @media screen and (max-width: 1360px) and (min-width: 1281px){
-        .contenedor-angular{
-                max-width: 1360px;
-                min-width: 1281px;
-        }
-}
-
-@media screen and (max-width: 1280px) and (min-width: 1177px){
-        .InServicio > .Ver-Header{
-                max-width: 1280px;
-                min-width: 1177px;
-        }
-        .InServicio > .Ver-Cuerpo{
-                max-width: 1280px;
-                min-width: 1177px;
-        }
-        .contenedor-angular{
-                max-width: 1280px;
-                min-width: 1177px;
-        }
-}
-@media screen and (max-height: 768px) and (min-height: 600px){
-        .InServicio > .Ver-Header{
-                max-height: 230.4px;
-                min-height: 180px;
-        }
-        .InServicio > .Ver-Cuerpo{
-                max-height: 537px;
-                min-height: 420px;
-        }
-        .InServicio > .Ver-Header > .Vertical{
-                max-height: 230.4px;
-                min-height: 180px;
-        }
-        .InServicio > .Ver-Cuerpo > .Vertical{
-                max-height: 537px;
-                min-height: 420px;
-        }
-        .Contenedor-Imagen{
-                max-height: 230.4px;
-                min-height: 180px;
-        }
-        .contenedor-angular{
-                 max-height: 768px;
-                min-height: 600px;
-        }
-        div.InHome > .header{
-                height: 180px;
-        }
-        div.InHome > .header >.logo{
-                 height: 180px;
-        }
-        .InServicio{
-                max-height: 768px;
-                min-height: 600px;    
-        }
-        .encabezado{
-                margin-top: 10%;
-       }
-       
-}
-@media screen and (max-height: 810px) and (min-height: 769px){
-        .InServicio > .Ver-Header{
-                max-height: 562px;
-                min-height: 232px;
-        }
-        .InServicio > .Ver-Cuerpo{
-                max-height: 537px;
-                min-height: 420px;
-        }
-        .InServicio > .Ver-Header > .Vertical{
-                max-height: 562px;
-                min-height: 232px;
-        }
-        .InServicio > .Ver-Cuerpo > .Vertical{
-                max-height: 537px;
-                min-height: 420px;
-        }
-        .Contenedor-Imagen{
-                max-height: 230.4px;
-                min-height: 180px;
-        }
-        .contenedor-angular{
-                max-height: 810px;
-                min-height: 755px;
-        }
-        div.InHome > .header{
-                height: 180px;
-        }
-        div.InHome > .header >.logo{
-                 height: 180px;
-        }
-        .InServicio{
-                max-height: 810px;
-                min-height: 755px;    
-        }
-       .encabezado{
-                margin-top: 13%;
-       }
-}

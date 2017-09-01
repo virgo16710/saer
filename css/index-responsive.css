@@ -1,0 +1,186 @@
+/*
+////////////////////////////////////////////
+////////////////////////////////////////////
+SCREEN ENTRE ANCHO MAYOR A 1360 MENOS 1281//
+////////////////////////////////////////////
+////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1360px) and (min-width: 1281px){
+        .contenedor-angular{
+                max-width: 1360px;
+                min-width: 1281px;
+        }
+}
+
+/*
+////////////////////////////////////////////
+////////////////////////////////////////////
+SCREEN ENTRE ANCHO MAYOR A 1280 MENOS 1177//
+////////////////////////////////////////////
+////////////////////////////////////////////
+*/
+
+
+@media screen and (max-width: 1280px) and (min-width: 1177px){
+        .InServicio > .Ver-Header{
+                max-width: 1280px;
+                min-width: 1177px;
+        }
+        .InServicio > .Ver-Cuerpo{
+                max-width: 1280px;
+                min-width: 1177px;
+        }
+        .InRescate > .Ver-Header{
+                max-width: 1280px;
+                min-width: 1177px;
+        }
+        .InRescate > .Ver-Cuerpo{
+                max-width: 1280px;
+                min-width: 1177px;
+        }
+        .contenedor-angular{
+                max-width: 1280px;
+                min-width: 1177px;
+        }
+}
+
+/*
+////////////////////////////////////////////
+////////////////////////////////////////////
+SCREEN ENTRE ALTURA MAYOR A 768 MENOS 600///
+////////////////////////////////////////////
+////////////////////////////////////////////
+*/
+
+@media screen and (max-height: 768px) and (min-height: 600px){
+        .InServicio > .Ver-Header{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .InServicio > .Ver-Cuerpo{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InServicio > .Ver-Header > .Vertical{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .InServicio > .Ver-Cuerpo > .Vertical{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InRescate > .Ver-Header{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .InRescate > .Ver-Cuerpo{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InRescate > .Ver-Header > .Vertical{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .InRescate > .Ver-Cuerpo > .Vertical{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .Contenedor-Imagen-Form_a{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .contenedor-angular{
+                 max-height: 768px;
+                min-height: 600px;
+        }
+        div.InHome > .header{
+                height: 180px;
+        }
+        div.InHome > .header >.logo{
+                 height: 180px;
+        }
+        .InServicio{
+                max-height: 768px;
+                min-height: 600px;    
+        }
+        .InRescate{
+                max-height: 768px;
+                min-height: 600px;    
+        }
+        .encabezado{
+                margin-top: 10%;
+       }
+       
+}
+
+/*
+////////////////////////////////////////////
+////////////////////////////////////////////
+SCREEN ENTRE ALTURA MAYOR A 810 MENOS 769///
+////////////////////////////////////////////
+////////////////////////////////////////////
+*/
+
+@media screen and (max-height: 810px) and (min-height: 769px){
+        .InServicio > .Ver-Header{
+                max-height: 562px;
+                min-height: 232px;
+        }
+        .InServicio > .Ver-Cuerpo{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InServicio > .Ver-Header > .Vertical{
+                max-height: 562px;
+                min-height: 232px;
+        }
+        .InServicio > .Ver-Cuerpo > .Vertical{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InRescate > .Ver-Header{
+                max-height: 562px;
+                min-height: 232px;
+        }
+        .InRescate > .Ver-Cuerpo{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        .InRescate > .Ver-Header > .Vertical{
+                max-height: 562px;
+                min-height: 232px;
+        }
+        .InRescate > .Ver-Cuerpo > .Vertical{
+                max-height: 537px;
+                min-height: 420px;
+        }
+        
+        .Contenedor-Imagen-Form_a{
+                max-height: 230.4px;
+                min-height: 180px;
+        }
+        .contenedor-angular{
+                max-height: 810px;
+                min-height: 755px;
+        }
+        div.InHome > .header{
+                height: 180px;
+        }
+        div.InHome > .header >.logo{
+                 height: 180px;
+        }
+        .InServicio{
+                max-height: 810px;
+                min-height: 755px;    
+        }
+        .InRescate{
+                max-height: 810px;
+                min-height: 755px;    
+        }
+       .encabezado{
+                margin-top: 13%;
+       }
+
+}

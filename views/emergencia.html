@@ -1,48 +1,50 @@
-<div id="servicios" class="contenedor-angular" name="servicios">
-            <div class="maxwidth InServicio">
+<div id="emergencias" class="emergencia" name="emergencias">
+            <div class="maxwidth InEmergencia relativo">
                 <div class="Contenido Horizontal Ver-Header">
                     <div class="Vertical Hort-Medio Contenedor-Titulo left">
-                        <p>RESCATE AUTOMOTRIZ </p>
+                        <p>EMERGENCIA</p>
                     </div>
                     <div class="Vertical Hort-Medio right">
-                        <img src="../img/camion.png" style="width: 540px;" />
+                        <img src="~/Content/moto.png" style="width:540px;" />
                     </div>
                 </div>
                 <div class="Contenido Horizontal Ver-Cuerpo">
                     <div class="Contenido Vertical left Hort-Medio">
                         <div class="Horizontal Ver-Corto">
                             <div class="Contenedor-Superior">
-                                <p>
-                                    Servicio de Rescate Automotriz <br />
-                                    Grua 24/7
-                                </p>
+                                <p>Servicio rapido para continuar, ruta o viaje <br />moto 24/7 </p>
                             </div>
                         </div>
                         <div class="Horizontal Ver-Largo">
                             <div class="Contenedor-Inferior">
-                                <h4>- Plataforma Hidraulica capacidad 3.700 kg</h4>
+                                
                                 <p>
-                                    Ideal para panne en autopista, traslado de vehículos
-                                    entre domicilio, automotora, talleres mecanicos,
-                                    concesionarios, vehiculos nuevos o usados
+                                    <ul>
+                                        <li>Panne de Combustible</li>
+                                        <ol>5 lt. diesel o bencina</ol>
+                                        <li>Chofer de reemplazo profesional</li>
+                                        <ol>Revision Técnica Clases A2 - A4 - B - C</ol>
+                                        <ol>Ley de Alcoholes</ol>
+                                        <ol>Fiestas o Celebraciones</ol>
+                                    </ul>
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="Contenido Vertical right Hort-Medio">
                         <form id="formulario" method="post">
-                            <label>Especifique su Rescate</label>
+                            <label>Especifique la Emergencia</label>
                             <input id="desc_emergencia" name="desc_emergencia" type="text" />
                             <label>Tu ubicación</label>
                             <input id="ubicacion" name="nombre" type="text" />
-                            <label>Donde te diriges</label>
-                            <input id="destino" name="email" type="text" />
-                            <input id="campo3" name="enviar" type="submit" value="Enviar" class="button grande informacion right" style="margin-right:-38px" onclick="getDirectionsLocation();" />
+                            <input id="campo3" name="enviar" type="button" value="Buscar Dirección" class="button grande informacion right" style="margin-right:-38px" onclick="Ubicacion_Emergencia();" />
+                            <input id="campo3" name="enviar" type="button" value="Geolocalizar" class="button grande informacion left" style="margin-right:-38px" onclick="Geo_Emergencia();" />
                         </form>
                     </div>
                 </div>
-                <div id="contenedor_mapa" class="Horizontal Ver-Foot">
-
-                </div>
+                <div id="Mapa_Emergencia" class="Horizontal Ver-Foot"></div>
             </div>
+                <footer>
+        <a href="#!">Atras</a>
+    </footer>
         </div>
